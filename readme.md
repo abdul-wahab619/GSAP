@@ -14,3 +14,12 @@
 2. scrub
 3. pin
 4. trigger
+
+## Part - 3:
+
+1. Create Slick SVG Animations
+2. Scalable Vector Graphics
+
+## Part - 4:
+
+1. Create Cursor Animation
