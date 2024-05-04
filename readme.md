@@ -23,3 +23,7 @@
 ## Part - 4:
 
 1. Create Cursor Animation
+
+## Part - 5:
+
+1. Create TimeLine Animation (Navbar)
