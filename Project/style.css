@@ -1,0 +1,204 @@
+@font-face {
+  font-family: chine;
+  src: url("./3856NeueMachina.woff2");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+section {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+.part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+nav h1 {
+  font-size: 50px;
+}
+nav h1 i {
+  rotate: 45deg;
+  display: inline-block;
+  font-size: 55px;
+}
+nav h4 {
+  font-size: 25px;
+  font-weight: 500;
+}
+nav button {
+  padding: 20px 60px;
+  font-size: 22px;
+  background-color: transparent;
+  border-radius: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 2px solid #000;
+}
+
+.center {
+  padding: 20px 100px;
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+.center-part-1 {
+  height: 100%;
+  width: 44%;
+}
+
+.center-part-1 h1 {
+  line-height: 1.2;
+  font-size: 80px;
+  font-family: chine;
+}
+.center-part-1 p {
+  line-height: 1.2;
+  font-size: 30px;
+  width: 95%;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+.center-part-1 button {
+  background-color: #000;
+  color: white;
+  border-radius: 15px;
+  padding: 20px 50px;
+  font-size: 25px;
+  font-weight: 600;
+  border: none;
+}
+.center-part-2 {
+  height: 100%;
+  width: 56%;
+  position: relative;
+}
+.center-part-2 img {
+  height: 100%;
+  right: 0;
+  position: absolute;
+}
+
+.section1bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 120px;
+}
+.section1bottom img {
+  height: 70px;
+}
+
+.section2 .services {
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-top: 50px;
+}
+.services h3 {
+  background-color: #9ae975;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-family: chine;
+  font-size: 50px;
+}
+.services p {
+  width: 40%;
+  font-size: 20px;
+}
+.container {
+  height: 85%;
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.elem {
+  flex-shrink: 0;
+  height: 300px;
+  width: 40%;
+  border: 3px solid black;
+  border-radius: 50px;
+  padding: 20px;
+  /* background-color: red; */
+  box-shadow: 0px 15px 0px black;
+  display: flex;
+}
+
+.elem-part1 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.elem-part2 {
+  height: 100%;
+  width: 50%;
+}
+.elem-part2 img {
+  height: 100%;
+}
+.elem-part1 h2 {
+  font-size: 25px;
+  font-family: chine;
+  width: 70%;
+  padding: 0px 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: #9ae975;
+}
+.elem-part1 h4 {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 500;
+  gap: 20px;
+}
+.elem-part1 h4 i {
+  padding: 15px;
+  background-color: black;
+  color: #fff;
+  border-radius: 50%;
+}
+/* .black {
+  background-color: #000;
+}
+.elem .black .line1 h2 {
+  background-color: white;
+  color: #000;
+  font-size: 25px;
+  font-family: chine;
+  width: 70%;
+  padding: 0px 10px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.elem .black .line1 h4 {
+  color: white;
+} */
